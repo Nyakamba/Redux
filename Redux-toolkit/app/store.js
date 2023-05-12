@@ -12,7 +12,7 @@ const store = configureStore({
     icecream: icecreamReducer,
     user: useReducer,
   },
-  // middleware: (getdefaultMiddleware) => getdefaultMiddleware().concat(logger)
+  // middleware: (getdefaultMiddleware) => getdefaultMiddleware().concat(logger)s
 });
 
 module.exports = store;
