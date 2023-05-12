@@ -18,4 +18,4 @@ const func = store.subscribe(() => {
 // store.dispatch(icecreamActions.restocked(2));
 store.dispatch(fetchUsers());
 
-////func();
+///func();
