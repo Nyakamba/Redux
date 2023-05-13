@@ -8,7 +8,7 @@ const initialState = {
   error: "",
 };
 
-//Generates pending, fulfilling and rejected action types
+//Generates pending, fulfilling & rejected action types
 const fetchUsers = createAsyncThunk("user/fetchUsers", () => {
   return axios
     .get("https://jsonplaceholder.typicodee.com/users")
