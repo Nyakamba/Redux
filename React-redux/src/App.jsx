@@ -6,9 +6,11 @@ import { UserView } from "./features/user/UserView";
 function App() {
   return (
     <>
-      <CakeView />
-      <IceCreamView />
-      <UserView />
+      <div>
+        <CakeView />
+        <IceCreamView />
+        <UserView />
+      </div>
     </>
   );
 }
